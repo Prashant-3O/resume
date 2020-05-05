@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+body {
+  margin: 0;
+  font-family: 'Poppins' , sans-serif;
+  padding-top: 54px;
+  color: white;
+  background-color: black;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 23rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p.lead {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+  color: white;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: black !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: white;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+.dev-icons .list-inline-item i{
+  color: #495057;
+}
+.dev-icons .list-inline-item i:hover {
+  color:#fff;
+}
+
+.img{
+  background-image: url('../img/avatar2.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+}
+.title{
+  position: relative;
+  color: #fff;
+}
+#sideNav {
+  border-radius: 0px 0px 10px 10px;
+  overflow-x: hidden;
+}
+#sideNav .navbar-nav {
+  color: black;
+}
+#main{
+  color: black;
+  font-weight: 900;
+}
+#sideNav .navbar-nav{
+  padding:10px;
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.1s;
+}
+#sideNav .navbar-nav .nav-item .nav-link :hover{
+  font-size: 13px;
+}
+#sideNav .navbar-toggler{
+  transition: 0.2s;
+}
+#sideNav .navbar-toggler:hover{
+  outline-color: black;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    margin:0px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 100vh;
+    border-radius:0px 10px 10px 0px;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 10px;
+    padding: 1rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 15rem;
+    min-height: 15rem;
+    border-radius: 200%;
+  }
+  #sideNav .navbar-collapse {
+    display: inline-block;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+    padding: 10px;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+    color: black;
+  }
+}
+.container-fluid{
+  background-image: url('../img/avatar6.jpg');
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 10px;
+  height: 50rem;
+}
+section.resume-section {
+  padding-top: 10rem !important;
+  padding-bottom: 2rem !important;
+  max-width: 60rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 992px) {
+  .container-fluid{
+    margin-top: 10px;
+    background-image: url('../img/avatar6.jpg');
+    background-repeat: no-repeat;
+    background-position: ;
+    background-size: contain;
+    border-radius: 10px;
+    height: 100vh;
+  }
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.bg-primary {
+  background-color: #eaf0eb !important;
+}
+
+.text-primary {
+  color: white !important;
+}
+
+a {
+  color: white;
+}
+
+a:hover, a:focus, a:active {
+  color:white;
+}
