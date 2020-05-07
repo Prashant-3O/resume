@@ -108,7 +108,7 @@ p.lead {
   color: black;
   transition: 0.1s;
 }
-#sideNav .navbar-nav .nav-item .nav-link :hover{
+#sideNav .navbar-nav .nav-item .nav-link:hover{
   font-size: 13px;
 }
 #sideNav .navbar-toggler{
@@ -201,6 +201,29 @@ section.resume-section .resume-item .resume-date {
   section.resume-section {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+}
+@media(max-width: 576px){
+  section.resume-section{
+    padding-top: 1rem;
+  }
+  section.resume-section h1{
+    font-size: 4rem;
+  }
+  .dev-icons {
+    font-size: 2rem;
+  }
+  .social-icons a{ 
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #495057;
+    color: black !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-right: 1rem;
   }
 }
 
